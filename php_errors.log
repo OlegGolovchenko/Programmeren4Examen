@@ -1,0 +1,54 @@
+[09-Jan-2017 14:13:54 UTC] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class \Programmeren4\Les10\Controller\Home does not exist' in /home/ubuntu/workspace/examen/vendor/modernways/mvc/src/RouteConfig.php:48
+Stack trace:
+#0 /home/ubuntu/workspace/examen/vendor/modernways/mvc/src/RouteConfig.php(48): ReflectionMethod->__construct('\Programmeren4\...', 'editing')
+#1 /home/ubuntu/workspace/examen/examen912017/UnitBaseMvc.php(7): ModernWays\Mvc\RouteConfig->invokeActionMethod()
+#2 {main}
+  thrown in /home/ubuntu/workspace/examen/vendor/modernways/mvc/src/RouteConfig.php on line 48
+[09-Jan-2017 14:14:19 UTC] PHP Fatal error:  Class 'Programmeren4\Article\Model\Article' not found in /home/ubuntu/workspace/examen/vendor/olegg/unitbase/src/Controller/Home.php on line 21
+[09-Jan-2017 14:14:19 UTC] PHP Stack trace:
+[09-Jan-2017 14:14:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/examen/examen912017/UnitBaseMvc.php:0
+[09-Jan-2017 14:14:19 UTC] PHP   2. ModernWays\Mvc\RouteConfig->invokeActionMethod() /home/ubuntu/workspace/examen/examen912017/UnitBaseMvc.php:7
+[09-Jan-2017 14:14:19 UTC] PHP   3. ReflectionMethod->invoke() /home/ubuntu/workspace/examen/vendor/modernways/mvc/src/RouteConfig.php:69
+[09-Jan-2017 14:14:19 UTC] PHP   4. Olegg\UnitBase\Controller\Home->editing() /home/ubuntu/workspace/examen/vendor/modernways/mvc/src/RouteConfig.php:69
+[09-Jan-2017 14:15:06 UTC] PHP Warning:  include(/home/ubuntu/workspace/examen/vendor/olegg/unitbase/src/View/Home/Editing.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/examen/vendor/modernways/mvc/src/Controller.php on line 87
+[09-Jan-2017 14:15:06 UTC] PHP Stack trace:
+[09-Jan-2017 14:15:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/examen/examen912017/UnitBaseMvc.php:0
+[09-Jan-2017 14:15:06 UTC] PHP   2. ModernWays\Mvc\Controller->ModernWays\Mvc\{closure}() /home/ubuntu/workspace/examen/examen912017/UnitBaseMvc.php:17
+[09-Jan-2017 14:15:06 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/examen/vendor/olegg/unitbase/src/View/Home/Editing.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/examen/vendor/modernways/mvc/src/Controller.php on line 87
+[09-Jan-2017 14:15:06 UTC] PHP Stack trace:
+[09-Jan-2017 14:15:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/examen/examen912017/UnitBaseMvc.php:0
+[09-Jan-2017 14:15:06 UTC] PHP   2. ModernWays\Mvc\Controller->ModernWays\Mvc\{closure}() /home/ubuntu/workspace/examen/examen912017/UnitBaseMvc.php:17
+[09-Jan-2017 14:52:23 UTC] PHP Warning:  preg_match() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/examen/vendor/olegg/unitbase/src/Model/UnitBase.php on line 31
+[09-Jan-2017 14:52:23 UTC] PHP Stack trace:
+[09-Jan-2017 14:52:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/examen/examen912017/UnitBaseMvc.php:0
+[09-Jan-2017 14:52:23 UTC] PHP   2. ModernWays\Mvc\RouteConfig->invokeActionMethod() /home/ubuntu/workspace/examen/examen912017/UnitBaseMvc.php:7
+[09-Jan-2017 14:52:23 UTC] PHP   3. ReflectionMethod->invoke() /home/ubuntu/workspace/examen/vendor/modernways/mvc/src/RouteConfig.php:69
+[09-Jan-2017 14:52:23 UTC] PHP   4. Olegg\UnitBase\Controller\Home->ReadingOne() /home/ubuntu/workspace/examen/vendor/modernways/mvc/src/RouteConfig.php:69
+[09-Jan-2017 14:52:23 UTC] PHP   5. Olegg\UnitBase\Model\UnitBase->setName() /home/ubuntu/workspace/examen/vendor/olegg/unitbase/src/Controller/Home.php:36
+[09-Jan-2017 14:52:23 UTC] PHP   6. preg_match() /home/ubuntu/workspace/examen/vendor/olegg/unitbase/src/Model/UnitBase.php:31
+[09-Jan-2017 14:52:23 UTC] PHP Fatal error:  Call to undefined method Olegg\UnitBase\Model\UnitBase::setShippingCostMultiplier() in /home/ubuntu/workspace/examen/vendor/olegg/unitbase/src/Controller/Home.php on line 38
+[09-Jan-2017 14:52:23 UTC] PHP Stack trace:
+[09-Jan-2017 14:52:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/examen/examen912017/UnitBaseMvc.php:0
+[09-Jan-2017 14:52:23 UTC] PHP   2. ModernWays\Mvc\RouteConfig->invokeActionMethod() /home/ubuntu/workspace/examen/examen912017/UnitBaseMvc.php:7
+[09-Jan-2017 14:52:23 UTC] PHP   3. ReflectionMethod->invoke() /home/ubuntu/workspace/examen/vendor/modernways/mvc/src/RouteConfig.php:69
+[09-Jan-2017 14:52:23 UTC] PHP   4. Olegg\UnitBase\Controller\Home->ReadingOne() /home/ubuntu/workspace/examen/vendor/modernways/mvc/src/RouteConfig.php:69
+[09-Jan-2017 14:53:59 UTC] PHP Fatal error:  Call to undefined method Olegg\UnitBase\Model\UnitBase::setShippingCostMultiplier() in /home/ubuntu/workspace/examen/vendor/olegg/unitbase/src/Controller/Home.php on line 38
+[09-Jan-2017 14:53:59 UTC] PHP Stack trace:
+[09-Jan-2017 14:53:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/examen/examen912017/UnitBaseMvc.php:0
+[09-Jan-2017 14:53:59 UTC] PHP   2. ModernWays\Mvc\RouteConfig->invokeActionMethod() /home/ubuntu/workspace/examen/examen912017/UnitBaseMvc.php:7
+[09-Jan-2017 14:53:59 UTC] PHP   3. ReflectionMethod->invoke() /home/ubuntu/workspace/examen/vendor/modernways/mvc/src/RouteConfig.php:69
+[09-Jan-2017 14:53:59 UTC] PHP   4. Olegg\UnitBase\Controller\Home->ReadingOne() /home/ubuntu/workspace/examen/vendor/modernways/mvc/src/RouteConfig.php:69
+[09-Jan-2017 14:54:22 UTC] PHP Warning:  include(/home/ubuntu/workspace/examen/vendor/olegg/unitbase/src/View/Home/Updating.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/examen/vendor/modernways/mvc/src/Controller.php on line 87
+[09-Jan-2017 14:54:22 UTC] PHP Stack trace:
+[09-Jan-2017 14:54:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/examen/examen912017/UnitBaseMvc.php:0
+[09-Jan-2017 14:54:22 UTC] PHP   2. ModernWays\Mvc\Controller->ModernWays\Mvc\{closure}() /home/ubuntu/workspace/examen/examen912017/UnitBaseMvc.php:17
+[09-Jan-2017 14:54:22 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/examen/vendor/olegg/unitbase/src/View/Home/Updating.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/examen/vendor/modernways/mvc/src/Controller.php on line 87
+[09-Jan-2017 14:54:22 UTC] PHP Stack trace:
+[09-Jan-2017 14:54:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/examen/examen912017/UnitBaseMvc.php:0
+[09-Jan-2017 14:54:22 UTC] PHP   2. ModernWays\Mvc\Controller->ModernWays\Mvc\{closure}() /home/ubuntu/workspace/examen/examen912017/UnitBaseMvc.php:17
+[09-Jan-2017 15:26:11 UTC] PHP Fatal error:  Class 'Programmeren4\Article\Model\Article' not found in /home/ubuntu/workspace/examen/vendor/olegg/unitbase/src/Controller/Home.php on line 57
+[09-Jan-2017 15:26:11 UTC] PHP Stack trace:
+[09-Jan-2017 15:26:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/examen/examen912017/UnitBaseMvc.php:0
+[09-Jan-2017 15:26:11 UTC] PHP   2. ModernWays\Mvc\RouteConfig->invokeActionMethod() /home/ubuntu/workspace/examen/examen912017/UnitBaseMvc.php:7
+[09-Jan-2017 15:26:11 UTC] PHP   3. ReflectionMethod->invoke() /home/ubuntu/workspace/examen/vendor/modernways/mvc/src/RouteConfig.php:69
+[09-Jan-2017 15:26:11 UTC] PHP   4. Olegg\UnitBase\Controller\Home->insert() /home/ubuntu/workspace/examen/vendor/modernways/mvc/src/RouteConfig.php:69

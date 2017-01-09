@@ -1,0 +1,6 @@
+{
+    "require": {
+        "modernways/dialog": "dev-master",
+        "modernways/mvc": "dev-master"
+    }
+}
